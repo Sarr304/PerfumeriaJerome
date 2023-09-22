@@ -1,6 +1,6 @@
 /******* Bootstrap Theming ********/
 
-$primary: #a2dbff;
+$primary: #32D1FB;
 $secondary: #66d6ff;
 $light: #96f3ff;
 $dark: #094fab;
@@ -17,7 +17,9 @@ $enable-responsive-font-sizes: true;
 
 $border-radius: 5px;
 
+
 @import "bootstrap/scss/bootstrap";
+
 
 
 /********** Custom CSS ************/
@@ -81,6 +83,10 @@ h6,
     background: $primary;
 }
 
+.logo{
+    width: 200px;
+    height: 200px;
+}
 .navbar-light .navbar-nav .nav-link {
     padding: 30px 15px;
     color: $dark;
